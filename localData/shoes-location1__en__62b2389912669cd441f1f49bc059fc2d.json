@@ -1,0 +1,27 @@
+{
+	"__": {
+		"entityPageSet": {
+			"plugin": {}
+		},
+		"name": "location",
+		"streamId": "shoes-location1",
+		"templateType": "JS"
+	},
+	"businessId": 3191365,
+	"description": "new addidas shoes for running",
+	"id": "addidas1",
+	"key": "0:location:knowledgeGraph:29981678:en",
+	"locale": "en",
+	"meta": {
+		"entityType": {
+			"id": "ce_shoes",
+			"uid": 106701
+		},
+		"locale": "en"
+	},
+	"name": "addidas",
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": "",
+	"uid": 29981678
+}

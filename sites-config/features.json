@@ -1,0 +1,49 @@
+{
+  "features": [
+    {
+      "name": "location",
+      "streamId": "shoes-location1",
+      "templateType": "JS",
+      "entityPageSet": {
+        "plugin": {}
+      }
+    },
+    {
+      "name": "robots",
+      "templateType": "JS",
+      "staticPage": {
+        "plugin": {}
+      }
+    },
+    {
+      "name": "turtlehead-tacos",
+      "templateType": "JS",
+      "staticPage": {
+        "plugin": {}
+      }
+    }
+  ],
+  "streams": [
+    {
+      "$id": "shoes-location1",
+      "fields": [
+        "id",
+        "uid",
+        "meta",
+        "name",
+        "description"
+      ],
+      "filter": {
+        "entityTypes": [
+          "ce_shoes"
+        ]
+      },
+      "localization": {
+        "locales": [
+          "en"
+        ],
+        "primary": false
+      }
+    }
+  ]
+}
